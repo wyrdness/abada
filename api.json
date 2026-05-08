@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/abada",
     "maintainers": [
       {
@@ -16,110 +16,214 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "abada",
     "name": "Abada",
-    "aliases": [],
+    "aliases": [
+      { "name": "Nillekma", "region": "Central Africa" },
+      { "name": "Arase", "region": "Central Africa" }
+    ],
     "category": "MYTHOLOGICAL_CREATURE",
-    "subcategory": "Creatures",
+    "subcategory": "African unicorn / two-horned hooved creature",
     "tags": [
-      "and-spiritual-significance"
+      "africa",
+      "central-africa",
+      "kongo",
+      "unicorn",
+      "two-horned",
+      "antelope-like",
+      "healing",
+      "antidote",
+      "folklore"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Abada is a legendary unicorn-like creature from Central African mythology, particularly associated with the Kongo people and neighboring cultures of the Congo River basin.",
-      "full": "The Abada is a legendary unicorn-like creature from Central African mythology, particularly associated with the Kongo people and neighboring cultures of the Congo River basin. Described as a rare and shy animal resembling an antelope or small horse with one or two magical horns, the Abada is most renowned for its horn's powerful healing properties, especially its ability to cure or neutralize poisons. Unlike the aggressive European unicorn, the Abada is portrayed as a gentle, elusive creature that avoids human contact, making encounters with it exceptionally rare and valuable. European explorers and traders first documented the Abada legend in the 15th and 16th centuries, and the creature became part of broader discussions about African wildlife and mythology during the Age of Exploration."
+      "summary": "The Abada is a two-horned, unicorn-like creature from the folklore of the Kongo language area of Central Africa, said to resemble a small donkey and to have horns that serve as antidotes to poison and disease.",
+      "full": "The Abada is a legendary creature from the folklore of the Kongo-speaking peoples of Central Africa, first described in European sources by 17th-century Italian Capuchin missionary Giovanni Antonio Cavazzi da Montecuccolo during his time in the kingdoms of Kongo, Matamba, and Angola. Unlike the European unicorn, the Abada is described as having two crooked horns rather than one, and is roughly the size of a small donkey, with a tail likened to that of a wild boar. The animal is generally portrayed as small, shy, and elusive, and its horns are believed to neutralize poison and to cure disease. The creature is also called Nillekma or Arase in some accounts. The name 'Abada' itself appears to stem from a wider Afro-Eurasian terminology for rhinoceros and other large-horned animals — Portuguese 'bada / abada' and Malay 'badak' both refer to the rhinoceros — which European writers conflated with local Kongo descriptions of a horned forest beast."
     },
     "etymology": {
-      "origin": "Central African (Kongo)",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "The name was popularized in European literature through 17th-century Portuguese and Italian missionary accounts of the Kongo. The Portuguese 'bada' and 'abada' (from Malay 'badak', 'rhinoceros') were applied loosely to large horned animals; in Cavazzi's Kongo account it became attached to a two-horned, unicorn-like beast.",
+      "meaning": "Likely derived from Malay 'badak' (rhinoceros) by way of Portuguese maritime trade vocabulary; in the Kongo context the term came to refer specifically to a two-horned mythical animal whose horns acted as an antidote.",
+      "first_use": "17th century (Cavazzi's writings on Kongo, Matamba, and Angola)"
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "MYTHOLOGICAL_CREATURE",
-      "type": "Creatures",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Hooved mythical creature",
+      "subtype": "Two-horned unicorn analogue",
+      "variant": "Central African (Kongo)"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "unicorn", "name": "Unicorn", "relationship": "similar", "description": "European single-horned mythical creature whose horn was likewise believed to neutralize poison" },
+      { "id": "al-miraj", "name": "Al-Mi'raj", "relationship": "similar", "description": "Arabic single-horned hare from Qazwini's wonders literature" },
+      { "id": "karkadann", "name": "Karkadann", "relationship": "similar", "description": "Persian / Arabic single-horned beast often equated with the rhinoceros" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark, sometimes described as bristled or rough"],
+      "features": [
+        { "feature": "Two horns", "description": "Two crooked horns on the head; described as flexible when relaxed and hardening when threatened. The horns are the source of the creature's reputed antidotal power.", "frequency": "always" },
+        { "feature": "Donkey-like body", "description": "Size and build compared to a small donkey; sturdy and compact rather than graceful.", "frequency": "common" },
+        { "feature": "Boar-like tail", "description": "Tail likened to that of a wild boar in European accounts derived from Kongo descriptions.", "frequency": "common" }
+      ],
+      "morphology": "Hoofed quadruped intermediate in size between an antelope and a donkey, distinguished from the European unicorn by having two horns rather than one."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Healing horn", "description": "The horn is held to neutralize poisons and cure disease when used as a vessel or ground into powder.", "frequency": "always", "evidence_level": "folklore" },
+      { "ability": "Elusiveness", "description": "Reported as exceptionally shy, rarely seen by humans; encounters are treated as auspicious.", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
       "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "disposition": "passive",
+      "social_structure": "solitary",
+      "habitat_preference": ["tropical forest", "savanna woodland", "river country of Central Africa"],
+      "diet": "Not specified in source material; implicitly herbivorous given antelope-like form",
+      "patterns": [
+        "Avoids humans; encounters are unusual and considered fortunate",
+        "Associated in folklore with appearing to people in distress"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Central African (Kongo)",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Forests and inland regions of the historic Kongo cultural area, including parts of present-day Angola, the Republic of the Congo, and the Democratic Republic of the Congo.",
+      "continents": ["Africa"],
+      "countries": ["Angola", "Democratic Republic of the Congo", "Republic of the Congo"],
+      "regions": ["Kongo cultural area", "Central Africa", "Lower Congo basin"]
     },
     "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "17th century",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Giovanni Antonio Cavazzi da Montecuccolo, Istorica descrizione de' tre' regni Congo, Matamba, et Angola (published 1687)"
+      },
+      "peak_activity_periods": [
+        { "period": "17th century", "description": "Initial European documentation by Capuchin missionaries to the Kongo" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Central African (Kongo)",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Oral tradition of Kongo-speaking peoples of Central Africa, encountered by Capuchin missionaries to the Kingdom of Kongo in the 17th century.",
+      "earliest_accounts": "Italian Capuchin missionary Giovanni Antonio Cavazzi da Montecuccolo recorded a two-horned 'unicorn' under the name Abada in his 17th-century writings on Kongo, Matamba, and Angola.",
+      "folklore_connections": "Part of the broader Old World 'horn-as-antidote' tradition that includes the European unicorn, the Persian/Arabic karkadann, and the Arabic al-mi'raj."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "17th century", "event": "Capuchin missionary Giovanni Antonio Cavazzi da Montecuccolo records a two-horned, unicorn-like beast under the name Abada in his Kongo, Matamba, and Angola accounts", "significance": "Earliest known European-language documentation", "source": "Cavazzi, Istorica descrizione de' tre' regni Congo, Matamba, et Angola (1687)" },
+      { "date": "1687", "event": "Cavazzi's Istorica descrizione is published posthumously in Bologna", "significance": "Brings the Abada into wider European circulation", "source": "Cavazzi (1687)" }
+    ],
+    "modern_era": "The Abada survives chiefly as a tradition recorded in early-modern travel literature. It appears in compendia of mythical animals and African folklore but has no active cryptozoological investigation."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "17th century", "latest": "17th century" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "abada-evidence-cavazzi",
+        "type": "missionary account",
+        "name": "Cavazzi's Istorica descrizione",
+        "date": "1687",
+        "description": "17th-century Italian Capuchin missionary account of the Kingdom of Kongo, Matamba, and Angola, including the description of a two-horned, unicorn-like animal called Abada.",
+        "status": "unverified",
+        "analysis": "A primary documentary source from inside the Kongo cultural area, written by a missionary who lived for years in the region; treated as the foundational European-language reference for the creature.",
+        "source": "Cavazzi (1687)"
+      }
+    ]
   },
+
   "theories": {
     "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "scientific": [
+      {
+        "name": "Misidentified or composite ungulate",
+        "description": "Some commentators suggest the Abada may reflect Kongo descriptions of real two-horned animals (e.g. various antelopes, or the rhinoceros via the Portuguese term abada/badak) misunderstood by European listeners as a single mythical species.",
+        "proponents": [],
+        "evidence_cited": ["Portuguese term 'abada' / 'bada' is used for rhinoceros", "Malay 'badak' (rhinoceros) underlies the Iberian word"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Folklore, not zoology",
+        "description": "The Abada is best understood as part of a global 'magical horn' folklore complex rather than as a zoological claim, paralleling unicorn beliefs in Europe and Asia.",
+        "proponents": [],
+        "evidence_cited": ["Antidotal-horn motif shared with European unicorn and Persian karkadann"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
+      "traditions": [
+        "Kongo oral tradition concerning a two-horned forest beast whose horn neutralizes poison"
+      ],
       "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "beliefs": "The Abada appears in 17th-century Kongo accounts as a small, elusive, two-horned animal whose horn was prized as a protection against poison."
+    },
+    "indigenous": {
+      "cultures": ["Kongo (Bakongo)"],
+      "significance": "Part of a Kongo body of knowledge about powerful forest animals encountered by Capuchin missionaries in the 17th century.",
+      "sensitivity_note": "European missionary accounts are filtered through outsider observers and conflate Kongo terminology with Portuguese rhinoceros vocabulary; they should not be read as transparent ethnographic records.",
+      "respect_guidelines": "Where possible, distinguish Kongo oral tradition from the European 'African unicorn' literary motif derived from it."
     },
     "popular_culture": {
-      "literature": [],
+      "literature": [
+        "Listed as an 'African unicorn' in 19th- and 20th-century compendia of mythical animals"
+      ],
       "film_tv": [],
       "games": [],
       "other": []
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "Giovanni Antonio Cavazzi da Montecuccolo", "affiliation": "Capuchin Order", "contribution": "Earliest known European description of the Abada in the context of the Kongo, Matamba, and Angola", "period": "17th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "No active scientific or cryptozoological research programs known."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-abada",
+      "type": "website",
+      "title": "Abada (unicorn)",
+      "publication": "Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Abada_(unicorn)",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "cavazzi-1687",
+      "type": "book",
+      "title": "Istorica descrizione de' tre' regni Congo, Matamba, et Angola",
+      "authors": ["Giovanni Antonio Cavazzi da Montecuccolo"],
+      "publication": "Giacomo Monti, Bologna",
+      "date": "1687",
+      "notes": "Primary 17th-century missionary account from the Kongo, cited as the earliest European-language documentation of the Abada."
+    }
+  ]
 }
